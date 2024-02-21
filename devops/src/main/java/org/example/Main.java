@@ -1,7 +1,5 @@
 package org.example;
-import java.io.*;
-import java.lang.*;
-import java.lang.Math;
+
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -10,6 +8,8 @@ public class Main {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
+//        System.out.println("Hello and welcome!");
+
         double num1, num2;
 
         // Take input from the user
@@ -57,5 +57,6 @@ public class Main {
         // print the final result
         System.out.println(num1 + " " + op + " " + num2
                 + " = " + o);
+
     }
 }
